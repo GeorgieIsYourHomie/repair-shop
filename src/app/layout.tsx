@@ -14,8 +14,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Computer Repair Shop",
-  description: "Computer Repair Kisok",
+  title: {
+    template: "%s | Computer Repair Shop",
+    default: "Computer Repair Shop",
+  },
+  description: "Dan's Computer Repair Kisok",
+  applicationName: "Repair Shop",
 };
 
 export default function RootLayout({

@@ -9,7 +9,7 @@ export default function NotFound() {
   return (
     <div className="flex flex-col items-center gap-20 justify-center min-h-screen px-4 text-center">
       <Image
-        className="m-0 rounded-xl"
+        className="m-0"
         src="/images/404-error.jpg"
         alt="Page Not Found"
         width={400}
